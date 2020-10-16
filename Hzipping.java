@@ -23,7 +23,7 @@ public class Hzipping {
 	// for keeping frequncies of all the bytes
 
 	// main tree class
-
+	
 	static class TREE implements Comparable<TREE> {
 		TREE Lchild;
 		TREE Rchild;
@@ -77,6 +77,7 @@ public class Hzipping {
 	/***********************************************************************************
 	 * byte to binary conversion
 	 ***********************************************************************************/
+	
 	public static int to(Byte b) {
 		int ret = b;
 		if (ret < 0) {
