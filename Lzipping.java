@@ -29,6 +29,7 @@ public class Lzipping {
 	 * = make the integer to bin then return btsz size's string
 	 * =========================================================================
 	 */
+	
 	public static String fil(int inp) {
 		String ret = "", r1 = "";
 		if (inp == 0)
