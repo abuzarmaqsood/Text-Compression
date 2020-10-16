@@ -20,6 +20,8 @@ of multiple byte to binary sequence.
 
 ## Running Instruction:
 
+![](TC_image.png)
+
 ## Zip a file
 file>open>click zip>the zipped file will be created on the same folder
 
