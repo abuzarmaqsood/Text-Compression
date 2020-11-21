@@ -7,16 +7,11 @@ A Text Compression software that helps zip/Unzip files using these 2 algorihtms:
 
 ## About Huffman Code
 
-The Huffman algorithm creates a 1-1 mapping for each byte of the input file 
-and replaces each byte with the mapped bit sequence. For this you need 
-to store a dictionary that describes each 1-1 mapping of input byte and
-binary sequence.(which needs extraspace)
+Huffman coding is a lossless data compression algorithm. In this algorithm, a variable-length code is assigned to input different characters. The code length is related to how frequently characters are used. Most frequent characters have the smallest codes and longer codes for least frequent characters.
 
 ## About Lempel-Ziv-Welch
 
-Unlike Huffman code, LZW dont need an extra dictionary to be saved. Also
-LZW does not create a mapping to byte to bin sequence. It creates mapping
-of multiple byte to binary sequence.
+LZW coding assigns fixed length code words to variable length sequence of input symbols. The coding is based on a “dictionary” or “codebook” containing the source symbols to be encoded. The coding starts with an initial dictionary, which is enlarged with the arrival of new symbol sequences.
 
 ## Running Instruction:
 
